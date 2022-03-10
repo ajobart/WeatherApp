@@ -63,4 +63,29 @@ button:hover {
 
 h1.temperature {
   margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.flex-weather {
+  display: flex;
+  align-items: center;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading::after {
+  visibility: visible;
+  content: "Loading...";
+  color: White;
+  position: absolute;
+  top: 0;
+  left: 20px;
 }
