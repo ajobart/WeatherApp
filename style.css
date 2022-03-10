@@ -7,14 +7,14 @@ body {
   margin: 0;
   background: #222;
   font-family: 'system-ui';
-  background-image: url('https://picsum.photos/1600/900?landscape');
+  background-image: url('https://picsum.photos/1600/900?');
   background-position: center;
   background-size: cover;
   font-size: 120%;
 }
 
 .card {
-  background: #242424c0;
+  background: #24242471;
   backdrop-filter: blur(8px);
   color: white;
   padding: 2em;
@@ -40,6 +40,10 @@ input {
   font-family: inherit;
   font-size: 120%;
   width: calc(100% - 100px);
+}
+
+input::placeholder {
+  color: white;
 }
 
 button {
@@ -69,6 +73,7 @@ h1.temperature {
 .flex-weather {
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .description {
