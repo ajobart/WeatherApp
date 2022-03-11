@@ -6,6 +6,12 @@ This is a fully functional weaher app with HTML, CSS and Javascript using the '*
 
 Random image generate with '**Lorem Picsum**' API (https://picsum.photos/).
 
-**You can use the app at :** https://ajobart.github.io/WeatherApp/
+To use the App create a config.js file and put your **OpenWeather API Key** like this :
 
- 
+```
+const config = {
+  MY_API_KEY: 'yourApiKey',
+}
+```
+
+ That's All ! 👋
