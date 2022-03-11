@@ -96,3 +96,29 @@ h1.temperature {
   top: 0;
   left: 20px;
 }
+
+@media screen and (max-width: 520px) {
+
+  body {
+    background-image: url('https://picsum.photos/600/900?');
+    background-size: auto;
+  }
+
+  .card {
+    padding: 1em;
+    width: 80%;
+  }
+
+  input {
+    font-size: 105%;
+    width: calc(70% - 100px);
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  .weather {
+    margin-left: 20px;
+  }
+}
