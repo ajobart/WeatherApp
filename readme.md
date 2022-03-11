@@ -6,7 +6,7 @@ This is a fully functional weaher app with HTML, CSS and Javascript using the '*
 
 Random image generate with '**Lorem Picsum**' API (https://picsum.photos/).
 
-To use the App create a config.js file and put your **OpenWeather API Key** like this :
+To use the App create a '**config.js**' file and put your **OpenWeather API Key** like this :
 
 ```
 const config = {
